@@ -28,11 +28,13 @@ Feel free to customize and enhance the extension according to your preferences a
 - HTML
 - CSS
 - JavaScript
-- Several APIs
+- Unsplash API
+- CoinGecko API
+- OpenWeatherMap API
 
 ## APIs
 
-This project uses several APIs to fetch image, cryptocurrency, and weather information.
+This project uses Unsplash API, CoinGecko API, and OpenWeatherMap API to fetch image, cryptocurrency, and weather information.
 
 ## Contributors
 
