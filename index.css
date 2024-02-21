@@ -35,8 +35,24 @@ div.top {
 h1.time {
     font-size: 5rem;
     text-align: center;
+    margin: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin-top: 0;
-    /* margin-bottom: 4.5rem; */
+}
+
+h2.quote-author {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+p.quote-text {
+    font-size: 1.125rem;
+    margin-top: 0;
 }
 
 div#crypto {

@@ -11,6 +11,16 @@ try {
 }
 
 try {
+    const response = await fetch("https://stoic.tekloon.net/stoic-quote")
+    const data = await response.json()
+    document.getElementById("quote").innerHTML = `
+        <h2 class="quote-author">${data.author}</h2>
+        <p class="quote-text">${data.quote}</p>`
+} catch (error) {
+    console.error(error)
+}
+
+try {
     const cryptoResponse = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
     if (!cryptoResponse.ok) {
         throw Error("Something went wrong")
