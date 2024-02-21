@@ -36,7 +36,7 @@ Feel free to customize and enhance the extension according to your preferences a
 
 ## APIs
 
-This project uses Unsplash API, CoinGecko API, [Stoicism Quote API](https://github.com/tlcheah2/stoic-quote-lambda-public-api), and OpenWeatherMap API to fetch image, cryptocurrency data, quote, and weather information.
+This project uses Unsplash API, CoinGecko API, [Stoicism Quote API](https://github.com/tlcheah2/stoic-quote-lambda-public-api), and OpenWeatherMap API to fetch image, cryptocurrency, quote, and weather information.
 
 ## Contributors
 
