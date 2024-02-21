@@ -1,5 +1,5 @@
 fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature")
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => {
         document.body.style.backgroundImage = `url(${data.urls.regular})`
 		document.getElementById("author").textContent = `By: ${data.user.name}`
@@ -12,11 +12,11 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
     })
 
 fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
-    .then(res => {
-        if (!res.ok) {
+    .then(response => {
+        if (!response.ok) {
             throw Error("Something went wrong")
         }
-        return res.json()
+        return response.json()
     })
     .then(data => {
         document.getElementById("crypto-top").innerHTML = `
@@ -40,11 +40,11 @@ setInterval(getCurrentTime, 1000)
 
 navigator.geolocation.getCurrentPosition(position => {
     fetch(`https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric`)
-        .then(res => {
-            if (!res.ok) {
+        .then(response => {
+            if (!response.ok) {
                 throw Error("Weather data not available")
             }
-            return res.json()
+            return response.json()
         })
         .then(data => {
             const iconUrl = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
