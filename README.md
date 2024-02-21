@@ -17,7 +17,7 @@ This Chrome extension creates a personalized dashboard featuring a dynamic backg
 
 ## Usage
 - After installation, open a new tab in Chrome to view the personalized dashboard.
-- The background image, cryptocurrency data, current time, and weather information will be updated automatically each time you open a new tab.
+- The background image, cryptocurrency data, current time, a stoicism quote, and weather information will be updated automatically each time you open a new tab.
 
 ## Disclaimer
 This extension requires an internet connection to fetch live data from external APIs. It may not function properly if there are issues with the APIs or the user's internet connection.
