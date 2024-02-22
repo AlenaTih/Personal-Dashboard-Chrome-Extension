@@ -3,11 +3,11 @@
 This Chrome extension creates a personalized dashboard featuring a dynamic background, cryptocurrency information, current time, a stoicism quote, and weather data. It utilizes various APIs to fetch live data and provide users with an informative and visually appealing dashboard every time they open a new tab in Chrome.
 
 ## Features
-- **Dynamic Background:** The extension fetches a random landscape nature image from Unsplash API and sets it as the background.
-- **Cryptocurrency Information:** Real-time data about Dogecoin, including its name, current price, 24-hour high, and 24-hour low, is displayed using CoinGecko API.
-- **Current Time:** The extension displays the current time and updates it every second.
-- **Stoicism Quote:** The extension fetches a random stoic quote from Stoicism Quote API.
-- **Weather Information:** Weather data for a user's location is fetched from OpenWeatherMap API and displayed, including temperature, weather icon, and city name.
+- **Dynamic Background:** the extension fetches a random landscape nature image from Unsplash API and sets it as the background.
+- **Cryptocurrency Information:** real-time data about Dogecoin, including its name, current price, 24-hour high, and 24-hour low, is displayed using CoinGecko API.
+- **Current Time:** the extension displays the current time and updates it every second.
+- **Stoicism Quote:** the extension fetches a random stoic quote from Stoicism Quote API.
+- **Weather Information:** weather data for a user's location is fetched from OpenWeatherMap API and displayed, including temperature, weather icon, and city name.
 
 ## Installation
 1. Download the extension files.
